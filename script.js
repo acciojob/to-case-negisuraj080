@@ -1,6 +1,7 @@
 function toCase(text) {
   // write your code here
-	if (!str.trim()) {
+	// Check if the input string is empty
+  if (!str.trim()) {
     return '-';
   }
 
