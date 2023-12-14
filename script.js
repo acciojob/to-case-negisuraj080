@@ -1,13 +1,13 @@
 function toCase(text) {
   // write your code here
 	// Check if the input string is empty
-  if (!str.trim()) {
+  if (!text.trim()) {
     return '-';
   }
 
   // Convert the string to lowercase and uppercase
-  const lowerCaseStr = str.toLowerCase();
-  const upperCaseStr = str.toUpperCase();
+  const lowerCaseStr = text.toLowerCase();
+  const upperCaseStr = text.toUpperCase();
 
   // Join the lowercase and uppercase strings with a hyphen
   const result = `${lowerCaseStr}-${upperCaseStr}`;
